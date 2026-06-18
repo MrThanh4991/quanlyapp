@@ -1,7 +1,8 @@
 const CACHE_NAME = 'gas-pwa-cache-v1';
 const ASSETS = [
   'index.html',
-  'manifest.json'
+  'manifest.json',
+  'app_bg.png'
 ];
 
 self.addEventListener('install', (e) => {
